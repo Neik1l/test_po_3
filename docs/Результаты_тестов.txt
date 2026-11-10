@@ -1,0 +1,31 @@
+test_learner_finishes_session_and_sees_progress (test_atdd_acceptance.TestAcceptanceCriteria.test_learner_finishes_session_and_sees_progress) ... ok
+test_user_adds_cards_and_sees_them_in_collection (test_atdd_acceptance.TestAcceptanceCriteria.test_user_adds_cards_and_sees_them_in_collection) ... ok
+test_wrong_answer_does_not_increase_correct_count (test_atdd_acceptance.TestAcceptanceCriteria.test_wrong_answer_does_not_increase_correct_count) ... ok
+test_feature_file_all_scenarios_pass (test_bdd_scenarios.TestGherkinScenarios.test_feature_file_all_scenarios_pass) ... ok
+test_results_match_specification_table (test_sdd_examples.TestSpecificationByExample.test_results_match_specification_table) ... ok
+test_answer_comparison_ignores_case_and_outer_spaces (test_sessions.TestSession.test_answer_comparison_ignores_case_and_outer_spaces) ... ok
+test_correct_and_incorrect_answers_counted (test_sessions.TestSession.test_correct_and_incorrect_answers_counted) ... ok
+test_duplicate_card_ids_are_rejected (test_sessions.TestSession.test_duplicate_card_ids_are_rejected) ... ok
+test_history_is_recorded_only_after_all_answers (test_sessions.TestSession.test_history_is_recorded_only_after_all_answers) ... ok
+test_session_accuracy_rounds_to_two_decimals (test_sessions.TestSession.test_session_accuracy_rounds_to_two_decimals) ... ok
+test_session_does_not_accept_answers_after_completion (test_sessions.TestSession.test_session_does_not_accept_answers_after_completion) ... ok
+test_session_moves_from_first_card_to_second (test_sessions.TestSession.test_session_moves_from_first_card_to_second) ... ok
+test_start_session_without_cards_is_rejected (test_sessions.TestSession.test_start_session_without_cards_is_rejected) ... ok
+test_corrupted_json_is_rejected (test_storage.TestStorage.test_corrupted_json_is_rejected) ... ok
+test_duplicate_ids_in_stored_data_are_rejected (test_storage.TestStorage.test_duplicate_ids_in_stored_data_are_rejected) ... ok
+test_missing_file_creates_empty_collection (test_storage.TestStorage.test_missing_file_creates_empty_collection) ... ok
+test_roundtrip_restores_cards_and_history (test_storage.TestStorage.test_roundtrip_restores_cards_and_history) ... ok
+test_card_ids_are_unique_and_incremental (test_tdd_cards.TestCardTDD.test_card_ids_are_unique_and_incremental) ... ok
+test_cards_are_listed_in_creation_order (test_tdd_cards.TestCardTDD.test_cards_are_listed_in_creation_order) ... ok
+test_create_card_returns_expected_fields (test_tdd_cards.TestCardTDD.test_create_card_returns_expected_fields) ... ok
+test_creating_blank_back_is_rejected (test_tdd_cards.TestCardTDD.test_creating_blank_back_is_rejected) ... ok
+test_creating_blank_front_is_rejected (test_tdd_cards.TestCardTDD.test_creating_blank_front_is_rejected) ... ok
+test_fields_trim_leading_and_trailing_spaces (test_tdd_cards.TestCardTDD.test_fields_trim_leading_and_trailing_spaces) ... ok
+test_invalid_update_does_not_modify_original (test_tdd_cards.TestCardTDD.test_invalid_update_does_not_modify_original) ... ok
+test_update_card_changes_only_requested_field (test_tdd_cards.TestCardTDD.test_update_card_changes_only_requested_field) ... ok
+test_updating_unknown_card_raises_key_error (test_tdd_cards.TestCardTDD.test_updating_unknown_card_raises_key_error) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.007s
+
+OK
