@@ -1,0 +1,8 @@
+[project]
+name = "flashcards-variant85"
+version = "1.0.0"
+description = "Практическая работа № 3: TDD, ATDD, BDD, SDD"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["flashcards"]
